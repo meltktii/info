@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 70%;
     margin: auto;
     padding: 20px;
     border: 1px solid #000;
@@ -82,6 +82,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .container {
         border: none;
         background-color: white;
+        width: 90%;
     }
     input{
         background-color: white;
