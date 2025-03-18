@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #000;
+    background-color: rgb(202, 206, 195);
+}
+
+.header {
+    width: 40%;
+    height: 50px;
+}
+
+.line{
+    border-bottom: 1px solid black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    text-align: left;
+    width: 30%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(202, 206, 195);
+}
+
+.print-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.hays{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pwedenato{
+    display: flex;
+}
+
+/* Hide the date picker icon */
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+}
+/* Hide the calendar picker in WebKit browsers */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+@media print {
+    .print-button {
+        display: none;
+    }
+    .container {
+        border: none;
+        background-color: white;
+    }
+    input{
+        background-color: white;
+    }
+    .header {
+        width: 40%;
+        height: 40px;
+    }
+}
