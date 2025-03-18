@@ -75,6 +75,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     -webkit-appearance: none;
 }
 
+@page {
+    size: 215.9mm 330mm; /* Folio size */
+    margin: 20mm; /* Adjust margin as needed */
+}
+
 @media print {
     .print-button {
         display: none;
